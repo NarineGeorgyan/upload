@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(17, 16, 16);
+    margin-top: 200px;
+  
+     
+}
+.container-div{
+    width: 900px;
+    margin: 150px auto;
+    padding: 40px 10px;
+
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #031f49;
+    background-image:linear-gradient(to bottom, #051937, #2c3350, #4e5069, #707084, #9391a0);
+}
+.user-name,
+.user-password{
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+.login{
+    border-radius:10px;
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+.error{
+    width: 250px;
+    padding: 5px 10px;
+    margin-bottom:15px;
+    border-radius: 7px;
+    color: red;
+    background-color: #ffffff;
+
+}
